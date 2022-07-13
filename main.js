@@ -31,7 +31,6 @@ const changeSong = () => {
 setInterval(() => {
   if (MyMusic.ended) {
     console.log(MyMusic.ended, "terminou");
-    currentMusic.src = baseURL + "01_The_End_of_All_We_Know.mp3";
-    MyMusic.load();
+    changeSong()
   }
 }, 1000);
