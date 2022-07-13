@@ -34,4 +34,4 @@ setInterval(() => {
     currentMusic.src = baseURL + "01_The_End_of_All_We_Know.mp3";
     MyMusic.load();
   }
-}, 3000);
+}, 1000);
