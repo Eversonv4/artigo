@@ -16,7 +16,7 @@ const MyMusic = document.querySelector("audio");
 
 const currentMusic = document.querySelector("source");
 
-const baseURL = "http://127.0.0.1:5500/assets/audio/";
+const baseURL = "https://eversonv4.github.io/assets/audio/";
 
 const changeSong = () => {
   if (currentMusic.src === baseURL + "05_Fracture.mp3") {
